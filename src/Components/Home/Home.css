@@ -295,6 +295,8 @@ to {
   .features-header{
     display:flex;
     text-align: left;
+    /* margin: auto;
+    align-items: center; */
   }
   .features-header h2 {
     font-size: 28px;
@@ -358,6 +360,7 @@ to {
     color: #007bff;
     text-decoration: none;
   }
+  
 
   .about-company {
     display: flex;

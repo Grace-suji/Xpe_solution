@@ -99,13 +99,13 @@ const Home = () => {
       <div className='feature'>
 
 <div className="features-section">
-  <div className="features-header">
-    <div>
+  <div className="features-header" style={{marginBottom:"50px"}}>
+    <div style={{float:"left" ,marginLeft:"200px"}}>
     <a href="#" className="explore-link">Explore Features</a>
-    <h2>Discover all our <strong>Features & Services</strong></h2>
+    <h2>Discover all our <br></br><strong>Features & Services</strong></h2>
     </div>
-    <div>
-    <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div style={{float:"right",width:"450px",marginLeft:"200px"}}>
+    <p style={{fontSize:"14px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, aliquam!Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <a href="#" className="view-more">View More Features</a>
     </div>
   </div>

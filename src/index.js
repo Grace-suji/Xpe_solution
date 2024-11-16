@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AOS from 'aos'
 import 'aos/dist/aos.css'; 
-// ..
 AOS.init();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
