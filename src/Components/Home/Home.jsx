@@ -1,5 +1,6 @@
 // Home.js
 import React from 'react';
+
 import './Home.css';
 import homecintent_img from "../../assets/content-image-2.png"
 import cloud_img from "../../assets/cloud.png"
@@ -46,16 +47,17 @@ const Home = () => {
 
         <header className="hero-section col-xl-6 col-md-12 col-sm-12 col-12">
           <div className="hero-content">
-            <p className='best'>Best SEO Solutions Agency </p>
-            <h1>Quality SEO Solutions Built by Great Teams</h1>
-            <p>We’ve 25 Years Of Experience In SEO Solutions</p>
+            <div className='best'><p >Best SEO Solutions Agency </p></div>
+            
+            <h2>Quality SEO Solutions Built by Great Teams</h2>
+            <p className='hero-25'>We’ve 25 Years Of Experience In SEO Solutions</p>
             <div className="hero-buttons">
               <button className="btn primary-btn">Let’s 7 Days Trial</button>
               <button className="btn secondary-btn">Popular Services</button>
             </div>
           </div>
-          <div className="hero-image col-xl-6 col-md-12 col-sm-12 col-12">
-            <img style={{ height: "500px", width: "700px" }}
+          <div className="hero-image col-xl-6 col-md-12 col-sm-12 col-12" data-aos="fade-left" data-aos-duration="1500">
+            <img 
               src={homecintent_img}
               alt="SEO Character"
               className="hero-character"
@@ -63,7 +65,7 @@ const Home = () => {
           </div>
         </header>
         <div className='pattern'>
-          <img src={cloud_img} alt="cloud_img" />
+          {/* <img className='cloud_img' alt="cloud_img" /> */}
         </div>
       </div>
       <section className="about-section ">

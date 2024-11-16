@@ -11,6 +11,7 @@ body {
     /* background-color: ; */
     font-size: 17px;
     font-weight: 600;
+    overflow-x: hidden;
 }
 .navbar{
     background-color: #005eff; 
